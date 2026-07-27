@@ -30,8 +30,8 @@ export default function Login() {
     <div className="min-h-[80vh] flex items-center justify-center px-4">
       <div className="w-full max-w-sm border border-indigo-600 rounded-2xl shadow-2xl p-8">
         <h2 className="text-3xl font-bold text-indigo-500 mb-6 text-center">
-           <img src={logo} alt="DoCode logo" className="h-9 w-9" />
-        <span className="text-2xl font-extrabold text-indigo-600 tracking-tight"> Login to DoCode</span>
+           <img src={logo} alt="Tri-Lion logo" className="h-9 w-9" />
+        <span className="text-2xl font-extrabold text-indigo-600 tracking-tight"> Login to Tri-Lion</span>
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-5">

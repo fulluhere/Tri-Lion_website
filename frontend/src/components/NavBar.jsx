@@ -7,8 +7,8 @@ export default function NavBar() {
 
   return (
     <nav className="flex items-center gap-8 px-8 py-5 border-b border-gray-200 bg-white shadow-sm">
-      <Link to="/" className="text-2xl font-extrabold text-indigo-600 tracking-tight"> <img src={logo} alt="DoCode logo" className="h-9 w-9" />
-        <span className="text-2xl font-extrabold text-indigo-600 tracking-tight">DoCode</span></Link>
+      <Link to="/" className="text-2xl font-extrabold text-indigo-600 tracking-tight"> <img src={logo} alt="Tri-Lion logo" className="h-9 w-9" />
+        <span className="text-2xl font-extrabold text-indigo-600 tracking-tight">Tri-Lion</span></Link>
 
       {user && <Link to="/dashboard" className="text-base font-medium text-gray-700 hover:text-indigo-600 transition">Dashboard</Link>}
       {user && <Link to="/problems" className="text-base font-medium text-gray-700 hover:text-indigo-600 transition">Problems</Link>}

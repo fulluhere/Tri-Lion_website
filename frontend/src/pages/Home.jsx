@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="max-w-5xl mx-auto px-6 py-24 text-center">
       <h1 className="text-6xl font-extrabold text-gray-900 mb-6 tracking-tight">
-        Welcome to <span className="text-indigo-600">DoCode</span>
+        Welcome to <span className="text-indigo-600">Tri-Lion</span>
       </h1>
       <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
         Sharpen your problem-solving skills. Solve coding challenges, compete on the leaderboard, and get AI-powered hints along the way.
