@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://online-compiler-backend-zi63.onrender.com/api",
+  baseURL: import.meta.env.VITE_URL_AUTH,
 });
 
 axiosInstance.interceptors.request.use((config) => {
